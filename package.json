@@ -1,0 +1,50 @@
+{
+  "name": "aws-nuke-all",
+  "version": "1.0.0",
+  "description": "Delete ALL resources in your AWS account (use with extreme caution)",
+  "type": "module",
+  "bin": {
+    "aws-nuke-all": "./bin/index.ts"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youhanasheriff/aws-nuke-all"
+  },
+  "bugs": {
+    "url": "https://github.com/youhanasheriff/aws-nuke-all/issues"
+  },
+  "homepage": "https://github.com/youhanasheriff/aws-nuke-all#readme",
+  "scripts": {
+    "start": "bun run bin/index.ts",
+    "dev": "bun --watch run bin/index.ts"
+  },
+  "keywords": [
+    "aws",
+    "cleanup",
+    "nuke",
+    "delete",
+    "resources",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.600.0",
+    "@aws-sdk/client-rds": "^3.600.0",
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/client-lambda": "^3.600.0",
+    "@aws-sdk/client-ecs": "^3.600.0",
+    "@aws-sdk/client-eks": "^3.600.0",
+    "@aws-sdk/client-elastic-load-balancing": "^3.600.0",
+    "@aws-sdk/client-elastic-load-balancing-v2": "^3.600.0",
+    "@aws-sdk/client-cloudformation": "^3.600.0",
+    "@aws-sdk/client-dynamodb": "^3.600.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
