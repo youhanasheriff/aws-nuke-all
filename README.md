@@ -177,9 +177,6 @@ STEP 2: Login with ONE of these methods
 - ⚠️ Requires typing `DELETE EVERYTHING` to confirm
 - ❌ Aborts immediately if confirmation doesn't match
 
-## License
-
-MIT
 
 ## Disclaimer
 

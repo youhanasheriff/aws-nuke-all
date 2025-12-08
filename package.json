@@ -1,6 +1,6 @@
 {
   "name": "aws-nuke-all",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Delete ALL resources in your AWS account (use with extreme caution)",
   "type": "module",
   "bin": {
